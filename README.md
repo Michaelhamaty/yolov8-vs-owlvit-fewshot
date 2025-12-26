@@ -2,7 +2,7 @@
 
 **Author:** Michael Hamaty  
 
-## 📄 [Read the Full Research Report (PDF)](./Michael_Hamaty-Final_Report_CS-171.pdf)
+## 📄 [Read the Full Research Report (PDF)](./Hamaty_YOLOv8_Kitchen_Detection_Study.pdf)
 
 ### Project Overview
 
@@ -20,8 +20,8 @@ These notebooks were designed to run in **Google Colab** with T4 GPU acceleratio
 ### Repository Structure
 
 * `Michael_Hamaty-Final_Report_CS-171.pdf`
-* `01_YOLOv8_FewShot_FineTuning.ipynb`: The primary pipeline. Handles data preprocessing, stratified $k$-shot sampling, and training the YOLOv8n model on restricted subsets.
-* `02_ZeroShot_and_Baseline_Evaluation.ipynb`: The benchmark suite. Evaluates the zero-shot capabilities of OWL-ViT (using text prompts like "a photo of a spatula") and the transfer learning performance of standard COCO weights.
+* `YOLOv8_FewShot_FineTuning.ipynb`: The primary pipeline. Handles data preprocessing, stratified $k$-shot sampling, and training the YOLOv8n model on restricted subsets.
+* `ZeroShot_and_Baseline_Evaluation.ipynb`: The benchmark suite. Evaluates the zero-shot capabilities of OWL-ViT (using text prompts like "a photo of a spatula") and the transfer learning performance of standard COCO weights.
 
 **Key Libraries:**
 * `ultralytics` (YOLOv8)
@@ -32,4 +32,4 @@ These notebooks were designed to run in **Google Colab** with T4 GPU acceleratio
 
 The code implements a rigorous **stratified sampling strategy**. Unlike standard train/test splits, this project creates custom subsets to strictly control the number of examples the model sees (10, 40, 160, and 320 total images).
 
-For the detailed breakdown of how the **32-shot YOLO model** managed to tie with the zero-shot Transformer, please refer to the [Final Report](./Michael_Hamaty-Final_Report_CS-171.pdf).
+For the detailed breakdown of how the **32-shot YOLO model** managed to tie with the zero-shot Transformer, please refer to the [Final Report](./Hamaty_YOLOv8_Kitchen_Detection_Study.pdf).
