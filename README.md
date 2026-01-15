@@ -19,7 +19,7 @@ These notebooks were designed to run in **Google Colab** with T4 GPU acceleratio
 
 ### Repository Structure
 
-* `Michael_Hamaty-Final_Report_CS-171.pdf`
+* `Hamaty_YOLOv8_Kitchen_Detection_Study.pdf`
 * `YOLOv8_FewShot_FineTuning.ipynb`: Handles data preprocessing, stratified $k$-shot sampling, and training the YOLOv8n model on restricted subsets.
 * `ZeroShot_and_Baseline_Evaluation.ipynb`:Evaluates the zero-shot capabilities of OWL-ViT (using text prompts like "a photo of a spatula") and the transfer learning performance of standard COCO weights.
 
